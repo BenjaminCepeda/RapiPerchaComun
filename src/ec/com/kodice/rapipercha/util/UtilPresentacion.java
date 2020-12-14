@@ -50,6 +50,7 @@ public class UtilPresentacion {
     }
 
     public static void mostrarMensajeError(Component padre, String mensaje){
+        System.out.println(mensaje);
         JOptionPane.showMessageDialog(padre, MENSAJE_ERROR + mensaje, 
                 TITULO_ERROR, JOptionPane.ERROR_MESSAGE);        
     }
